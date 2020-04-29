@@ -1,0 +1,177 @@
+{
+  "name": "Alone Together",
+  "ogmoVersion": "3.3.0",
+  "levelPaths": ["."],
+  "backgroundColor": "#282c34ff",
+  "gridColor": "#3c4049cc",
+  "anglesRadians": false,
+  "directoryDepth": 5,
+  "layerGridDefaultSize": {"x": 16, "y": 16},
+  "levelDefaultSize": {"x": 320, "y": 240},
+  "levelMinSize": {"x": 480, "y": 270},
+  "levelMaxSize": {"x": 480, "y": 270},
+  "levelValues": [],
+  "defaultExportMode": ".json",
+  "compactExport": false,
+  "externalScript": "",
+  "playCommand": "",
+  "entityTags": [],
+  "layers": [
+    {
+      "definition": "entity",
+      "name": "Props",
+      "gridSize": {"x": 16, "y": 16},
+      "exportID": "57890600",
+      "requiredTags": [],
+      "excludedTags": []
+    },
+    {
+      "definition": "tile",
+      "name": "Purple",
+      "gridSize": {"x": 16, "y": 16},
+      "exportID": "57894816",
+      "exportMode": 0,
+      "arrayMode": 0,
+      "defaultTileset": "Purple"
+    },
+    {
+      "definition": "tile",
+      "name": "Blue",
+      "gridSize": {"x": 16, "y": 16},
+      "exportID": "66319568",
+      "exportMode": 0,
+      "arrayMode": 0,
+      "defaultTileset": "Blue"
+    },
+    {
+      "definition": "tile",
+      "name": "Red",
+      "gridSize": {"x": 16, "y": 16},
+      "exportID": "66328329",
+      "exportMode": 0,
+      "arrayMode": 0,
+      "defaultTileset": "Red"
+    }
+  ],
+  "entities": [
+    {
+      "exportID": "57849419",
+      "name": "Start1",
+      "limit": -1,
+      "size": {"x": 16, "y": 16},
+      "origin": {"x": 0, "y": 0},
+      "originAnchored": true,
+      "shape": {
+        "label": "Rectangle",
+        "points": [
+          {"x": -1, "y": -1},
+          {"x": 1, "y": -1},
+          {"x": -1, "y": 1},
+          {"x": 1, "y": -1},
+          {"x": -1, "y": 1},
+          {"x": 1, "y": 1}
+        ]
+      },
+      "color": "#ff0000ff",
+      "tileX": false,
+      "tileY": false,
+      "tileSize": {"x": 16, "y": 16},
+      "resizeableX": false,
+      "resizeableY": false,
+      "rotatable": false,
+      "rotationDegrees": 360,
+      "canFlipX": false,
+      "canFlipY": false,
+      "canSetColor": false,
+      "hasNodes": false,
+      "nodeLimit": 0,
+      "nodeDisplay": 0,
+      "nodeGhost": true,
+      "tags": [],
+      "values": [],
+      "texture": "EntityPreviews/Start1.png",
+      "textureImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAADJJREFUOI1j/M/A8J8BGfxH5WIARkYULhN+1YTBwBvAgiGC5kdCYTLwXhg1YNQAqhgAAC03BiBWFg5AAAAAAElFTkSuQmCC"
+    },
+    {
+      "exportID": "58531159",
+      "name": "Start2",
+      "limit": -1,
+      "size": {"x": 16, "y": 16},
+      "origin": {"x": 0, "y": 0},
+      "originAnchored": true,
+      "shape": {
+        "label": "Rectangle",
+        "points": [
+          {"x": -1, "y": -1},
+          {"x": 1, "y": -1},
+          {"x": -1, "y": 1},
+          {"x": 1, "y": -1},
+          {"x": -1, "y": 1},
+          {"x": 1, "y": 1}
+        ]
+      },
+      "color": "#ff0000ff",
+      "tileX": false,
+      "tileY": false,
+      "tileSize": {"x": 16, "y": 16},
+      "resizeableX": false,
+      "resizeableY": false,
+      "rotatable": false,
+      "rotationDegrees": 360,
+      "canFlipX": false,
+      "canFlipY": false,
+      "canSetColor": false,
+      "hasNodes": false,
+      "nodeLimit": 1,
+      "nodeDisplay": 0,
+      "nodeGhost": true,
+      "tags": [],
+      "values": [],
+      "texture": "EntityPreviews/Start2.png",
+      "textureImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAEdJREFUOI1j/M/A8J8BGfxH5eIEjIwMDAwMDEzEqcYNBt4AFgwRqN8wAI6woaILiA19artg4A3AjAUYwBUb9HMBoVgZPnkBAPdRCibZ+EjRAAAAAElFTkSuQmCC"
+    },
+    {
+      "exportID": "57849526",
+      "name": "Goal",
+      "limit": -1,
+      "size": {"x": 16, "y": 16},
+      "origin": {"x": 0, "y": 0},
+      "originAnchored": true,
+      "shape": {
+        "label": "Rectangle",
+        "points": [
+          {"x": -1, "y": -1},
+          {"x": 1, "y": -1},
+          {"x": -1, "y": 1},
+          {"x": 1, "y": -1},
+          {"x": -1, "y": 1},
+          {"x": 1, "y": 1}
+        ]
+      },
+      "color": "#ff0000ff",
+      "tileX": false,
+      "tileY": false,
+      "tileSize": {"x": 16, "y": 16},
+      "resizeableX": false,
+      "resizeableY": false,
+      "rotatable": false,
+      "rotationDegrees": 360,
+      "canFlipX": false,
+      "canFlipY": false,
+      "canSetColor": false,
+      "hasNodes": false,
+      "nodeLimit": 1,
+      "nodeDisplay": 0,
+      "nodeGhost": true,
+      "tags": [],
+      "values": [],
+      "texture": "EntityPreviews/Goal.png",
+      "textureImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAEVJREFUOI1j/M/A8J8BG/iPXRgOGBkZGBgYGJjwqyIMWEi2GQ1Q0QXoNkP9SEcXoANcYYHmMopdMPAG4A4DesXCqAEMDAAulwoml+kXLwAAAABJRU5ErkJggg=="
+    }
+  ],
+  "tilesets": [
+    {"label": "Purple", "path": "../images/purpleTiles.png", "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAYAAAB3AH1ZAAAAAXNSR0IArs4c6QAAAChJREFUSIljZKAQlDl1/adEPxOlDqAUjDpg1AGjDhh1wKgDRh0w6gAAH1oCYb9rC2cAAAAASUVORK5CYII=", "tileWidth": 16, "tileHeight": 16, "tileSeparationX": 0, "tileSeparationY": 0},
+    {"label": "Blue", "path": "../images/blueTiles.png", "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAYAAAB3AH1ZAAAAAXNSR0IArs4c6QAAAChJREFUSIljZKAQJM/+/58S/UyUOoBSMOqAUQeMOmDUAaMOGHXAqAMA0pcDHIYksm8AAAAASUVORK5CYII=", "tileWidth": 16, "tileHeight": 16, "tileSeparationX": 0, "tileSeparationY": 0},
+    {"label": "Red", "path": "../images/redTiles.png", "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAYAAAB3AH1ZAAAAAXNSR0IArs4c6QAAAChJREFUSIljZKAQ3AxP/k+JfiZKHUApGHXAqANGHTDqgFEHjDpg1AEAmDACshhBWNQAAAAASUVORK5CYII=", "tileWidth": 16, "tileHeight": 16, "tileSeparationX": 0, "tileSeparationY": 0}
+  ]
+}
